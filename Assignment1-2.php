@@ -61,7 +61,16 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
         echo "<p>Some technical knowledge recommended.</p>";
     }
     ?>
-    
+
+    <!-- CONDITIONAL: Cost -->
+    <?php
+    if ($total_cost > 300) {
+        echo "<p>Consider buying tools in bulk.</p>";
+    } else {
+        echo "<p>The cost is reasonable.</p>";
+    }
+    ?>
+
     <h3>Tools Needed</h3>
 
 
@@ -82,4 +91,5 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
 
 </body>
 </html>
+
 
