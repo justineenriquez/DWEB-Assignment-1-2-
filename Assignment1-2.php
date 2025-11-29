@@ -72,8 +72,14 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
     ?>
 
     <h3>Tools Needed</h3>
-
-
+    <ul>
+        <?php 
+        // FOREACH LOOP: tools
+        foreach ($tools as $tool) {
+            echo "<li>$tool</li>";
+        } 
+        ?>
+    </ul>
 
     <h3>Step-by-Step Instructions</h3>
     <ol>
@@ -91,5 +97,6 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
 
 </body>
 </html>
+
 
 
