@@ -83,13 +83,11 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
 
     <h3>Step-by-Step Instructions</h3>
     <ol>
-        <li><?php echo $steps['Step 1']; ?></li>
-        <li><?php echo $steps['Step 2']; ?></li>
-        <li><?php echo $steps['Step 3']; ?></li>
-        <li><?php echo $steps['Step 4']; ?></li>
-        <li><?php echo $steps['Step 5']; ?></li>
-        <li><?php echo $steps['Step 6']; ?></li>
-        <li><?php echo $steps['Step 7']; ?></li>
+        <?php 
+        foreach ($steps as $step_name => $instruction) {
+            echo "<li><b>$step_name:</b> $instruction</li>";
+        } 
+        ?>
     </ol>
 </main>
 
@@ -97,6 +95,7 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
 
 </body>
 </html>
+
 
 
 
