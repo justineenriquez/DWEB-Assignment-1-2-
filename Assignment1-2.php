@@ -52,14 +52,19 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
     <p>Difficulty: <?= $difficulty; ?></p>
     <p>Total Cost: P <?= $total_cost; ?></p>
     <p>Number of PCs: <?= $pc_count; ?></p>
+
+    <!-- CONDITIONAL Statement -->
+    <?php
+    if ($difficulty == "Hard") {
+        echo "<p>This is an advanced cleaning .</p>";
+    } else {
+        echo "<p>Some technical knowledge recommended.</p>";
+    }
+    ?>
+    
     <h3>Tools Needed</h3>
-    <ul>
-        <li><?= $tools[0]; ?></li>
-        <li><?= $tools[1]; ?></li>
-        <li><?= $tools[2]; ?></li>
-        <li><?= $tools[3]; ?></li>
-        <li><?= $tools[4]; ?></li>
-    </ul>
+
+
 
     <h3>Step-by-Step Instructions</h3>
     <ol>
@@ -77,3 +82,4 @@ $total_time = $prep_time . " prep + " . $estimated_cleaning . " cleaning time";
 
 </body>
 </html>
+
