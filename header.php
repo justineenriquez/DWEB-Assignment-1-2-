@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean System Central</title>
+    <title>JusTech Central Store</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,33 +14,39 @@
         }
 
         header {
-            background-color: #2984D1;
+            background-color: #6fa058ff;
             color: white;
-            padding: 10px;
-            text-align: center;
+            padding: 15px 20px;
         }
 
         .logo {
             font-size: 24px;
             font-weight: bold;
+            display: inline-block;
+        }
+
+        nav {
+            display: inline-block;
+            float: right;
         }
 
         nav ul {
             list-style: none;
+            margin: 0;
             padding: 0;
-            margin-top: 10px;
         }
 
         nav ul li {
             display: inline-block;
-            margin-right: 10px;
+            margin-left: 15px;
         }
 
         nav ul li a {
             color: white;
             text-decoration: none;
             padding: 5px 10px;
-            background-color: #2984D1;
+            border-radius: 3px;
+            transition: background-color 0.3s;
         }
 
         nav ul li a:hover {
@@ -67,21 +73,15 @@
 <body>
 
     <header>
-        <div class="logo">Clean System Central</div>
+        <div class="logo">JusTech Central Store</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">PC Gallery</a></li>
+                <li><a href="Assign3.php">Home</a></li>
+                <li><a href="stock1.php">Stock</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <h1>Welcome to Clean System Central</h1>
-        <p>A simple guide to help you clean your system unit.</p>
-    </main>
-
 </body>
 </html>
