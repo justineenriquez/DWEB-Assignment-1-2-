@@ -7,13 +7,13 @@
 </head>
 <body>
     <footer>
-        <p>Created by: Enriquez, Justine Paul A. - WD-201 </a>"</p>
-        <p>&copy; <?php echo date('Y') ?> Clean System Central. All rights reserved.</p>
+        <p>Created by: Enriquez, Justine Paul A. - WD-201</p>
+        <p>&copy; <?php echo date('Y') ?> JusTech Central Store. All rights reserved.</p>
     </footer>
 
     <style>
         footer {
-            background-color: #2984D1;
+            background-color: #6fa058ff;
             color: white;
             text-align: center;
             padding: 20px;
