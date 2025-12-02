@@ -77,7 +77,7 @@
         <nav>
             <ul>
                 <li><a href="Assign3.php">Home</a></li>
-                <li><a href="stock1.php">Stock</a></li>
+                <li><a href="stock.php">Stock</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -85,3 +85,4 @@
     </header>
 </body>
 </html>
+
