@@ -1,88 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JusTech Central Store</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #e6e6e6;
-            color: #333;
+        body{
+            margin:0;
+            background:#e6e6e6;
+            font-family:Arial;
         }
-
-        header {
-            background-color: #6fa058ff;
-            color: white;
-            padding: 15px 20px;
+        
+        header{
+            background:#6fa058ff;
+            color:white;
+            padding:15px 20px;
         }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            display: inline-block;
+        
+        .logo{
+            font-size:24px;
+            font-weight:bold;
+            float:left;
         }
-
-        nav {
-            display: inline-block;
-            float: right;
+        
+        nav{
+            float:right;
+            margin-top:5px;
         }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
+        
+        nav ul{
+            list-style:none;
+            margin:0;
+            padding:0;
         }
-
-        nav ul li {
-            display: inline-block;
-            margin-left: 15px;
+        
+        nav ul li{
+            display:inline;
+            margin-left:15px;
         }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-            transition: background-color 0.3s;
+        
+        nav ul li a{
+            color:white;
+            text-decoration:none;
+            padding:6px 10px;
+            border-radius:4px;
         }
-
-        nav ul li a:hover {
-            background-color: #34495e;
+        
+        nav ul li a:hover{
+            background:#34495e;
         }
-
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
+        
+        header:after{
+            content:"";
+            display:table;
+            clear:both;
         }
-
-        h1, h2, h3 {
-            color: #2c3e50;
+        
+        main{
+            max-width:800px;
+            background:white;
+            padding:20px;
+            margin:20px auto;
         }
-
-        ol, ul {
-            line-height: 1.5;
+        
+        h1{
+            color:#2c3e50;
         }
-
+        h2{
+            color:#2c3e50;
+        }
+        h3{
+            color:#2c3e50;
+        }
+        
+        ol{
+            line-height:1.6;
+        }
+        ul{
+            line-height:1.6;
+        }
     </style>
 </head>
 <body>
 
-    <header>
-        <div class="logo">JusTech Central Store</div>
-        <nav>
-            <ul>
-                <li><a href="Assign3.php">Home</a></li>
-                <li><a href="stock.php">Stock</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="logo">JusTech Central Store</div>
+    <nav>
+        <ul>
+            <li><a href="Assign3.php">Home</a></li>
+            <li><a href="stock.php">Stock</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 </body>
 </html>
-
